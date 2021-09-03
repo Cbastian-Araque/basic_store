@@ -70,6 +70,19 @@ h3{
     margin: 3rem 0;
 }
 
+/* Footer */
+.footer{
+    background-color: $bgcolor_oscuro;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    text-align: center;
+    font-family: $fuenteTitulo;
+    font-size: 1.8rem;
+}
+
 /* Navegacion */
 .navegacion{
     background-color: $bgcolor_oscuro;
