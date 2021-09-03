@@ -59,4 +59,32 @@ h3{
     font-size: 2.5rem;
 }
 
+/* Header */
 
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+
+/* Navegacion */
+.navegacion{
+    background-color: $bgcolor_oscuro;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace, .navegacion__enlace--activo{
+    color: $blanco;
+    font-family: $fuenteTitulo;
+    font-size: 2rem;
+    &:hover{
+        color: $colorHover;
+        text-shadow: $negro 1px 1px 5px;
+    }
+}
